@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+/* Smooth background animation */
+@keyframes backgroundAnimation {
+  0% { background: #1a1a2e; }
+  50% { background: #16213e; }
+  100% { background: #1a1a2e; }
+}
+
+.animated-bg {
+  animation: backgroundAnimation 5s infinite alternate;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+}

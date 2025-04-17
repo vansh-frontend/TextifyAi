@@ -1,0 +1,27 @@
+{
+    "name": "OCR Image to Text",
+    "short_name": "OCR Text",
+    "description": "A web app to extract text from images using OCR.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#6a0dad",
+    "icons": [
+      {
+        "src": "/img/logo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "/img/logo.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/img/logo.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      }
+    ]
+  }
+  
